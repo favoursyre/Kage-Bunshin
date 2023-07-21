@@ -1,4 +1,6 @@
-# Network Worm
+# Kage Bunshin Network Worm
+
+![image](https://drive.google.com/uc?export=download&id=1lyXNnnGjDA1qYFj6bbvFLnzYL2lQZO9K)
 
 ## Disclaimer
 
@@ -15,12 +17,12 @@ This script is for educational purposes only, I don't endorse or promote it's il
 
 ## Overview
 
-This script attempts to spread itself over a LAN by launching an SSH Brute force attack
+This script is a network worm that attempts to spread itself over a LAN by launching an SSH Brute force attack
 
 ## Features
 
 - Scans a LAN for active devices
-- Attempts SSH brute force attack on each devices
+- Attempts SSH brute force attack on each devices in the LAN
 
 ## Languages
 
@@ -38,7 +40,7 @@ pip install requirements.txt
 
 ## Usage
 
-Instantiating the network scanner class
+Instantiating the network worm class
 
 ```python
 port, attacker, target = 22, "Uchiha Minato", "Konoha"
